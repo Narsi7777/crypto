@@ -71,5 +71,5 @@ app.get("/deviation", async (req, res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`Server running on port ${PerformanceTiming}`);
 });
